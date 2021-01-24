@@ -1,0 +1,72 @@
+																		HTML Semântico
+
+
+<header></header>
+-Representa um cabeçalho
+-Se estiver no início da página, é visto como global
+-Pode ser usado em outros elementos semânticos como article, section
+-Pode ter mais de um header
+-Não possui atributos específicos, somente globais (class, id...)	
+
+<nav></nav>
+Representam menus que contém conteúdos que apontam para outros lugares da mesma página ou em outras páginas.
+Geralmente se coloca dentro de um <header>, no cabeçalho do site
+Não possui atributos específicos, somente globais (class, id...)	
+
+
+<main></main>
+Representa um conteúdo único de uma página, com funcionalidade central de um site. Não pode haver repetição de <main></main>
+
+Não possui atributos específicos, somente globais (class, id...)		
+	
+
+<article></article>
+Representam uma composição independente de um site
+		-Artigo
+		-Post
+		-Blog
+		
+Não possui atributos específicos, somente globais (class, id...)		
+<aside></aside>
+
+Barra lateral que contém conteúdos levemente relacionados ao conteúdo principal
+	-Explicações
+	-Glossários
+	-Links extras
+	-Biografia do autor
+	-Informações do perfil
+	
+Não possui atributos específicos, somente globais (class, id...)		
+
+<footer></footer>
+
+Geralmente fica no final da página
+	-Informações do autor,
+	-Copyright
+	-Contato
+	-Sitemap
+	-Voltar ao topo
+	
+	
+Não possui atributos específicos, somente globais (class, id...)	
+
+
+<section></section>
+Representa seções de uma página. Para isso, normalmente para cada seção coloca-se um título (ou subtítulo) e o parágrafo
+
+Exemplo:
+<section>
+	<h2>contato</h2>
+	<p>Fale conosco</p>
+</section>	
+
+Não possui atributos específicos, somente globais (class, id...)
+
+
+
+PARA USO GENÉRICO:
+<div></div>
+	Usado se não conseguir encontrar um elemento de bloco semântico	
+	
+<span></span>	
+	Usado se não conseguir encontrar um elemento de texto semântico
