@@ -1,3 +1,5 @@
+<h2> Projeto Maratona Discovery</h2>
+
 <h1 align="center">
   <img alt="Home page DevFinances" src="./assets/Screenshot_DevFinance.png"/>
 </h1>
@@ -21,7 +23,7 @@
 </p>
 
 <h2>:earth_americas: Visão geral</h2>
-<p>Aplicação construída com intuito de revisar os conhecimentos de front-end (HTML, CSS e JS) abordados na maratona Discovery, promovida pela <a href="https://rocketseat.com.br/">Rocketseat</a>. Trata-se de uma aplicação de finanças que simplesmente calcula quanto você vendeu (entrada), e quanto você comprou (saída). Por ser uma aplicação simples, não foi preciso implementar o back-end para armazenar os dados em um servidor de bancos de dados, por exemplo, poupando o desempenho. Assim, todos os dados são armazenados diretamente na memória do navegador (Local Storage).</p>
+<p>Aplicação construída com intuito de revisar os conhecimentos de front-end (HTML, CSS e JS) abordados na Maratona Discovery, promovida pela <a href="https://rocketseat.com.br/">Rocketseat</a>. Trata-se de uma aplicação de finanças que simplesmente calcula quanto você vendeu (entrada), e quanto você comprou (saída). Por ser uma aplicação simples, não foi preciso implementar o back-end para armazenar os dados em um servidor de bancos de dados, por exemplo, poupando o desempenho. Assim, todos os dados são armazenados diretamente na memória do navegador (Local Storage).</p>
 
 ---
 
