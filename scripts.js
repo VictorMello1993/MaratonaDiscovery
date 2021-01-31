@@ -204,9 +204,7 @@ const Form = {
             Modal.Toggle()        
         } catch (error) {
             alert(error.message)
-        }
-
-        this.formatValues()        
+        }        
     }
 }
 
