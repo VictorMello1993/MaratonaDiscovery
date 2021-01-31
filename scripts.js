@@ -1,16 +1,9 @@
 //Janela de modal
 const Modal = {
-    open() {
+    Toggle(){
         const modal = document.querySelector('.modal-overlay')
-        modal.classList.add('active')
-    },
-    close() {
-        const modal = document.querySelector('.modal-overlay')
-        modal.classList.remove('active')
-    }
-
-    /*Desafio: criar a função única que chama a função da DOM "toggle" que abre a janela se não tiver a class 'active'
-               e fechar se existir a class 'active'*/
+        modal.classList.toggle('active')        
+    }    
 }
 
 //Armazenamento de dados no navegador (Local Storage)
@@ -96,6 +89,7 @@ const DOM = {
 
         DOM.transactionContainer.appendChild(tr)
     },
+
     innerHTMLTransaction(transaction, index) {
         const CSSClass = transaction.amount > 0 ? 'income' : 'expense'
         const amount = Utils.formatCurrency(transaction.amount)
@@ -110,11 +104,13 @@ const DOM = {
 
         return html
     },
+
     updateBalance() {
         document.getElementById('incomeDisplay').innerHTML = Utils.formatCurrency(Transaction.incomes())
         document.getElementById('expenseDisplay').innerHTML = Utils.formatCurrency(Transaction.expenses())
         document.getElementById('totalDisplay').innerHTML = Utils.formatCurrency(Transaction.total())
     },
+
     clearTransactions() {
         DOM.transactionContainer.innerHTML = ''
     }
@@ -206,7 +202,7 @@ const Form = {
             const transaction = this.formatValues()
             Transaction.add(transaction)
             this.clearFields()
-            Modal.close()            
+            Modal.Toggle()        
         } catch (error) {
             alert(error.message)
         }
@@ -227,6 +223,7 @@ const App = {
 
         Storage.set(Transaction.all)
     },
+    
     reload() {
         DOM.clearTransactions()
         this.init()
