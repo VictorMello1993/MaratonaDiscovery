@@ -1,8 +1,7 @@
 //Janela de modal
 const Modal = {
     Toggle(){
-        const modal = document.querySelector('.modal-overlay')
-        modal.classList.toggle('active')        
+        document.querySelector('.modal-overlay').classList.toggle('active')        
     }    
 }
 
@@ -223,7 +222,7 @@ const App = {
 
         Storage.set(Transaction.all)
     },
-    
+
     reload() {
         DOM.clearTransactions()
         this.init()
