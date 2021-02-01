@@ -60,4 +60,4 @@ Pronto, a aplicação está rodando! Perceba que como se trata de uma aplicaçã
 
 ---
 ## Versões do README
-<img alt="Bandeira dos Estados Unidos" src="./assets/eua.png" width="40px"/> <a href="/README-ENUS.md">Inglês</a> | <img alt="Bandeira do Brasil" src="./assets/br.jpg" width="40px"/> <a href="/README.md">Português</a>
+<img alt="Bandeira dos Estados Unidos" src="./assets/eua.png" width="22px"/> <a href="/README-ENUS.md">Inglês</a> | <img alt="Bandeira do Brasil" src="./assets/br.jpg" width="22px"/> <a href="/README.md">Português</a>
