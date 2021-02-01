@@ -66,4 +66,5 @@ localhost:5500
 
 ---
 ## README Versions
-<a href="/README-ENUS.md">English</a> | <a href="/README.md">Portuguese</a>
+ <img alt="United States Flag" src="./assets/eua.png" width="22px"/> <a href="/README-ENUS.md">English</a> | <img alt="Brazil flag" src="./assets/br.jpg" width="22px"/> <a href="/README.md">Portuguese</a>
+
