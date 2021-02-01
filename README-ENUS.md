@@ -62,7 +62,6 @@ localhost:5500
 ## Improvements to build
 - [ ] Add a new page that displays error messages which may occur when the user adds and/or removes a transaction, instead of displaying a message with ```alert()``` from the browser
 - [ ] Add dark theme
-- [ ] Find the potential bugs and fix them
 
 ---
 ## README Versions
