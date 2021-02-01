@@ -26,7 +26,7 @@
 <p>App built whose purpose is to review front-end (HTML, CSS e JS) knowledges teached on Maratona Discovery, 
      promoted by <a href="https://rocketseat.com.br/">Rocketseat</a>. It's about a finnance app which simply calculates how much you earned (incomes), and how much you spent (expenses). 
      Because it's a simple app, there was no need to implement back-end to storage data on a database server, for example, 
-     saving the performance. Thus, all data are stored in the browser's memory (Local Storage) directly.
+     saving the performance. Thus, all data is stored in the browser's memory (Local Storage) directly.
 </p>
 
 ---
