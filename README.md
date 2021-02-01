@@ -56,7 +56,6 @@ Pronto, a aplicação está rodando! Perceba que como se trata de uma aplicaçã
 ## Melhorias a implementar
 - [ ] Adicionar uma nova página que exibe as mensagens de erro que podem acontecer quando o usuário adiciona e/ou exclui uma transação, em vez de exibir a mensagem com ```alert()``` do navegador
 - [ ] Incluir modo escuro
-- [ ] Encontrar os potenciais bugs e corrigí-los
 
 ---
 ## Versões do README
