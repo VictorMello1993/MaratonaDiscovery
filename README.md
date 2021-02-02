@@ -57,7 +57,7 @@ Pronto, a aplicação está rodando! Perceba que como se trata de uma aplicaçã
 - [ ] Adicionar uma nova página que exibe as mensagens de erro que podem acontecer quando o usuário adiciona e/ou exclui uma transação, em vez de exibir a mensagem com ```alert()``` do navegador
 - [x] Incluir modo escuro 
   
-  <i>Créditos para <a href="https://github.com/andrePereira11/maratonaDiscover">
+  <i>Créditos para <a href="https://github.com/andrePereira11/maratonaDiscover"></i>
 
 ---
 ## Versões do README
