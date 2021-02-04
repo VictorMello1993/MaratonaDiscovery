@@ -208,8 +208,6 @@ const Form = {
     }
 }
 
-Storage.get()
-
 const App = {
     init() {
         Transaction.all.forEach((transaction, index) => {
