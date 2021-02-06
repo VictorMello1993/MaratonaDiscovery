@@ -3,9 +3,14 @@
   --dark-blue: #363f5f;
   --green: #49aa26;
   --light-green: #3dd705;
+  --color-incomes: #12a454;
   --red: #e92929;
   --dark-green: #2d4a22;
   --white: #f0f2f5;
+  --white-ball: #fff;
+  --orange-sun: #f39c12;
+  --yellow-moon: #f1c40f;
+  --color-label: #111;
 }
 
 :root.dark-mode {
@@ -123,7 +128,7 @@ header {
 }
 
 .label {
-  background: #111;
+  background: var(--color-label);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -135,7 +140,7 @@ header {
 }
 
 .ball {
-  background: #fff;
+  background: var(--white-ball);
   border-radius: 50%;
   position: absolute;
   top: 2px;
@@ -150,15 +155,15 @@ header {
 }
 
 .fa-moon {
-  color: #f1c40f;
+  color: var(--yellow-moon);
 }
 
 .fa-sun {
-  color: #f39c12;
+  color: var(--orange-sun);
 }
 
 #logo {
-  color: #fff;
+  color: var(--white-ball);
   font-weight: 100;
 }
 
@@ -168,13 +173,13 @@ header {
 }
 
 #balance h2 {
-  color: white;
+  color: var(--white-ball);
   margin-top: 0;
 }
 
 /* Cards ================================ */
 .card {
-  background: white;
+  background: var(--white-ball);
   padding: 1.5rem 2rem;
   border-radius: 0.25rem;
 
@@ -201,7 +206,7 @@ header {
 
 .card.total {
   background: var(--green);
-  color: white;
+  color: var(--white-ball);
 }
 
 /* Table ================================ */
@@ -228,7 +233,7 @@ table tbody tr td:last-child {
 }
 
 table thead th {
-  background: white;
+  background: var(--white-ball);
 
   font-weight: normal;
   padding: 1rem 2rem;
@@ -245,7 +250,7 @@ table tbody tr:hover {
 }
 
 table tbody td {
-  background: white;
+  background: var(--white-ball);
   padding: 1rem 2rem;
 }
 
@@ -254,7 +259,7 @@ td.description {
 }
 
 td.income {
-  color: #12a454;
+  color: var(--color-incomes);
 }
 
 td.expense {
