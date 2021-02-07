@@ -11,15 +11,19 @@
   --orange-sun: #f39c12;
   --yellow-moon: #f1c40f;
   --color-label: #111;
+  --color-cards: #363f5f;
+  --color-table-description: #363f5f;
+  --color-small: #363f5f;
 }
 
 :root.dark-mode {
-  --dark-blue: #363f5f;
+  --dark-blue: #fff;
   --green: #49aa26;
   --light-green: #3dd705;
   --red: #e92929;
   --dark-green: #292c35;
   --white: #292c35;
+  --color-small: #fff;
 }
 
 * {
@@ -185,7 +189,7 @@ header {
 
   margin-bottom: 2rem;
 
-  color: var(--dark-blue);
+  color: var(--color-cards);
 }
 
 .card h3 {
@@ -255,7 +259,7 @@ table tbody td {
 }
 
 td.description {
-  color: var(--dark-blue);
+  color: var(--color-table-description);
 }
 
 td.income {
@@ -305,6 +309,10 @@ td.expense {
   margin-top: 0;
 }
 
+.new-transaction{
+  color: var(--dark-blue);
+}
+
 input {
   border: none;
   border-radius: 0.2rem;
@@ -318,7 +326,8 @@ input {
 }
 
 .input-group .help {
-  opacity: 0.4;
+  opacity: 0.5;
+  color: var(--color-small);
 }
 
 .input-group.actions {

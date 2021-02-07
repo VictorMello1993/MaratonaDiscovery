@@ -112,6 +112,24 @@ const DOM = {
 
     clearTransactions() {
         DOM.transactionContainer.innerHTML = ''
+    },
+
+    toggleDarkMode(){
+        const html = document.querySelector('html')
+        const checkbox = document.getElementById('checkbox')
+        // const small = document.querySelector('.help')
+
+        if(localStorage.getItem('background') === 'true'){
+            html.classList.toggle('dark-mode')
+            // small.classList.toggle('dark')
+            checkbox.checked = true
+        }
+
+        checkbox.addEventListener('change', () => {
+            html.classList.toggle('dark-mode')
+            // small.classList.toggle('dark')
+            localStorage.setItem('background', checkbox.checked)
+        })
     }
 }
 
@@ -133,7 +151,7 @@ const Utils = {
 
     formatAmount(value) {
         value = Number(value) * 100
-        return value
+        return Math.round(value)
     },
 
     formatDate(value) {
@@ -215,8 +233,9 @@ const App = {
         })
 
         DOM.updateBalance()
+        DOM.toggleDarkMode()
 
-        Storage.set(Transaction.all)
+        Storage.set(Transaction.all)        
     },
 
     reload() {
