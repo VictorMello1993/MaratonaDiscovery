@@ -67,7 +67,7 @@ localhost:5500
 <img src="./assets/DevFinancesDarkMode1.png" alt="Modo escuro"/>
 <img src="./assets/DevFinancesDarkMode2.png" alt="Modo escuro"/>
 
-<p><i>Referências: <a href="https://github.com/andrePereira11/maratonaDiscover">André Luís</a></i></p>
+<p><i>References: <a href="https://github.com/andrePereira11/maratonaDiscover">André Luís</a></i></p>
 
 <p>To make it even more realistic, in addition to including dark mode, the logic of maintaining the background state of the page saved in Local Storage has been implemented, so that every time the user refreshes in the browser, the page is rendered exatly on which theme was selected last time, without losing any information and always backing to the default state, the light mode.</p>
 
