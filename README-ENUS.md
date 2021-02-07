@@ -19,6 +19,7 @@
   <a href="#earth_americas-overview">Overview</a> •
   <a href="#wrench-features">Features</a> •
   <a href="#triangular_flag_on_postgetting-started">Getting started</a> •  
+  <a href="#crescent_moondark-mode">Dark mode</a> •    
   <a href="#improvements-to-build">Improvements to build</a> •  
 </p>
 
@@ -57,12 +58,29 @@ localhost:5500
    to work.
 </p>
 
+
+
 ---
+
+
+
+<h2>:crescent_moon:Dark mode</h2>
+<img src="./assets/DevFinancesDarkMode1.png" alt="Modo escuro"/>
+<img src="./assets/DevFinancesDarkMode2.png" alt="Modo escuro"/>
+
+<p><i>References: <a href="https://github.com/andrePereira11/maratonaDiscover">André Luís</a></i></p>
+
+<p>To make it even more realistic, in addition to including dark mode, the logic of maintaining the background state of the page saved in Local Storage has been implemented, so that every time the user refreshes in the browser, the page is rendered exatly on which theme was selected last time, without losing any information and always backing to the default state, the light mode.</p>
+
+
+
+---
+
+
 
 ## Improvements to build
 - [ ] Add a new page that displays error messages which may occur when the user adds and/or removes a transaction, instead of displaying a message with ```alert()``` from the browser
 - [x] Add dark theme
- <p><i>References: <a href="https://github.com/andrePereira11/maratonaDiscover">André Luís</a></i></p>
 
 ---
 ## README Versions
