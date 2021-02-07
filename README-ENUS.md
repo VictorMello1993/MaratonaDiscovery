@@ -19,7 +19,7 @@
   <a href="#earth_americas-overview">Overview</a> •
   <a href="#wrench-features">Features</a> •
   <a href="#triangular_flag_on_postgetting-started">Getting started</a> •  
-  <a href="#crescent_moondark-mode">Getting started</a> •    
+  <a href="#crescent_moondark-mode">Dark mode</a> •    
   <a href="#improvements-to-build">Improvements to build</a> •  
 </p>
 
