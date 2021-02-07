@@ -18,7 +18,8 @@
 <p align="center">
   <a href="#earth_americas-visão-geral">Visão geral</a> •
   <a href="#wrench-recursos">Recursos</a> •
-  <a href="#triangular_flag_on_postcomeçando">Começando</a> •  
+  <a href="#triangular_flag_on_postcomeçando">Começando</a> •
+  <a href="#crescent_moon-modoescuro">Modo escuro</a> •
   <a href="#melhorias-a-implementar">Melhorias a implementar</a> •  
 </p>
 
@@ -52,6 +53,10 @@ localhost:5500
 Pronto, a aplicação está rodando! Perceba que como se trata de uma aplicação 100% front-end, não foi preciso executar os comandos do NodeJs porque não foi preciso criar um servidor para funcionar.
 
 ---
+
+<h2>:crescent_moon:Modo escuro</h2>
+<img src="./assets/DevFinancesDarkMode1.png" alt="Modo escuro"/>
+<img src="./assets/DevFinancesDarkMode2.png" alt="Modo escuro"/>
 
 ## Melhorias a implementar
 - [ ] Adicionar uma nova página que exibe as mensagens de erro que podem acontecer quando o usuário adiciona e/ou exclui uma transação, em vez de exibir a mensagem com ```alert()``` do navegador
