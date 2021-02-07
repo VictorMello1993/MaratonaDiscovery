@@ -19,7 +19,7 @@
   <a href="#earth_americas-visão-geral">Visão geral</a> •
   <a href="#wrench-recursos">Recursos</a> •
   <a href="#triangular_flag_on_postcomeçando">Começando</a> •
-  <a href="#crescent_moon-modoescuro">Modo escuro</a> •
+  <a href="#crescent_moonmodo-escuro">Modo escuro</a> •
   <a href="#melhorias-a-implementar">Melhorias a implementar</a> •  
 </p>
 
