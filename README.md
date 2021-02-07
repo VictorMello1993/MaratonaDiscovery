@@ -58,6 +58,10 @@ Pronto, a aplicação está rodando! Perceba que como se trata de uma aplicaçã
 <img src="./assets/DevFinancesDarkMode1.png" alt="Modo escuro"/>
 <img src="./assets/DevFinancesDarkMode2.png" alt="Modo escuro"/>
 
+
+---
+
+
 ## Melhorias a implementar
 - [ ] Adicionar uma nova página que exibe as mensagens de erro que podem acontecer quando o usuário adiciona e/ou exclui uma transação, em vez de exibir a mensagem com ```alert()``` do navegador
 - [x] Incluir modo escuro 
