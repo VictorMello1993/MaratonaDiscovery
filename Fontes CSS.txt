@@ -1,0 +1,16 @@
+																	FONTES CSS
+																	
+																	
+letter-spacing: espaçamento entre letras da fonte (unidade: px, rem, em ou %)
+word-spacing: espaçamento entre palavras da fonte (unidade: px, rem, em ou %)																	
+line-height: altura da linha da fonte (comum: 1.5 ou 2)
+text-transform: transformação do texto (uppercase | capitalize | lowercase | none)
+text-decoration: aparência decorativa do texto (overline | line-throught | underline | none | dashed | wavy | solid (padrão))
+text-align: alinhamento do texto (right, center, left, justify)
+text-shadow: sombreamento do texto (offset-x | offset-y | blur-radius | color
+
+font: propriedade shorthand para fontes (font-style, font-variant, font-weight, font-stretch, font-size, line-height e font-family)
+
+Exemplo:
+	  /* -style, -variant, -weight, -stretch, -size, -line-height e -family*/ 
+font: italic normal bold normal 3em/2 Helvetica, Arial, sans-serif
