@@ -1,19 +1,19 @@
 //Janela de modal
 const Modal = {
-    Toggle(){
-        document.querySelector('.modal-overlay').classList.toggle('active')        
-    }    
+    Toggle() {
+        document.querySelector('.modal-overlay').classList.toggle('active')
+    }
 }
 
 //Armazenamento de dados no navegador (Local Storage)
 const Storage = {
-    get(){
+    get() {
         return JSON.parse(localStorage.getItem('dev.finances:transactions')) || []
     },
 
-    set(transactions){
-        localStorage.setItem('dev.finances:transactions', 
-                              JSON.stringify(transactions))
+    set(transactions) {
+        localStorage.setItem('dev.finances:transactions',
+            JSON.stringify(transactions))
     }
 }
 
@@ -114,17 +114,17 @@ const DOM = {
         DOM.transactionContainer.innerHTML = ''
     },
 
-    toggleDarkMode(){
+    toggleDarkMode() {
         const html = document.querySelector('html')
-        const checkbox = document.getElementById('checkbox')        
+        const checkbox = document.getElementById('checkbox')
 
-        if(localStorage.getItem('background') === 'true'){
-            html.classList.toggle('dark-mode')            
+        if (localStorage.getItem('background') === 'true') {
+            html.classList.toggle('dark-mode')
             checkbox.checked = true
         }
 
         checkbox.addEventListener('change', () => {
-            html.classList.toggle('dark-mode')            
+            html.classList.toggle('dark-mode')
             localStorage.setItem('background', checkbox.checked)
         })
     }
@@ -202,12 +202,12 @@ const Form = {
     },
 
     //Gravação dos dados do formulário
-        //1) Verificar se os campos foram preenchidos
-        //2) Formatar os dados para salvar
-        //3) Salvar
-        //4) Limpar os campos para que no futuro sejam inseridos novos dados
-        //5) Fechar o modal
-        //6) Atualizar a aplicação
+    //1) Verificar se os campos foram preenchidos
+    //2) Formatar os dados para salvar
+    //3) Salvar
+    //4) Limpar os campos para que no futuro sejam inseridos novos dados
+    //5) Fechar o modal
+    //6) Atualizar a aplicação
     submit(event) {
         event.preventDefault()
 
@@ -216,27 +216,33 @@ const Form = {
             const transaction = this.formatValues()
             Transaction.add(transaction)
             this.clearFields()
-            Modal.Toggle()        
+            Modal.Toggle()
         } catch (error) {
             alert(error.message)
-        }        
+        }
     }
 }
 
 const App = {
+    isReloaded: false,
+
     init() {
         Transaction.all.forEach((transaction, index) => {
             DOM.addTransaction(transaction, index)
         })
 
         DOM.updateBalance()
-        DOM.toggleDarkMode()
 
-        Storage.set(Transaction.all)        
+        if (!this.isReloaded) {
+            DOM.toggleDarkMode()
+        }
+
+        Storage.set(Transaction.all)
     },
 
     reload() {
         DOM.clearTransactions()
+        this.isReloaded = true
         this.init()
     },
 }
