@@ -81,6 +81,7 @@ localhost:5500
 ## Improvements to build
 - [ ] Add a new page that displays error messages which may occur when the user adds and/or removes a transaction, instead of displaying a message with ```alert()``` from the browser
 - [x] Add dark theme
+- [ ] Generate a PDF report
 
 ---
 ## README Versions
